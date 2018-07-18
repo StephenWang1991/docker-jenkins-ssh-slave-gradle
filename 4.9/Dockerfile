@@ -4,8 +4,8 @@ CMD ["setup-sshd"]
 ENV GRADLE_HOME /opt/gradle
 ENV JENKINS_AGENT_HOME=/home/gradle
 
-ENV GRADLE_VERSION 4.1
-ARG GRADLE_DOWNLOAD_SHA256=d55dfa9cfb5a3da86a1c9e75bb0b9507f9a8c8c100793ccec7beb6e259f9ed43
+ENV GRADLE_VERSION 4.9
+ARG GRADLE_DOWNLOAD_SHA256=e66e69dce8173dd2004b39ba93586a184628bc6c28461bc771d6835f7f9b0d28
 
 RUN set -o errexit -o nounset \
 	&& echo "Downloading Gradle" \
